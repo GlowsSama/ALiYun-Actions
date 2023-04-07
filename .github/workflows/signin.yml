@@ -2,8 +2,7 @@ name: 阿里云盘签到
 
 on:
   schedule:
-   # 每天国际时间 17:00 运行一次, 中国时间 01:00
-    - cron: "0 17 * * *" 
+    - cron: "0 17 * * *" # 01:00 in UTC+8 
   workflow_dispatch:
 jobs:
   signin:
