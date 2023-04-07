@@ -2,7 +2,7 @@ name: 阿里云盘签到
 
 on:
   schedule:
-    - cron: "0 17 * * *" # 01:00 in UTC+8 
+    - cron: '0 5,17 * * *'  # 每天凌晨1点和下午13点运行
   workflow_dispatch:
 jobs:
   signin:
