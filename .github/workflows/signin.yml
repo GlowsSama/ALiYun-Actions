@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   signin:
-    name: Aliyun Signin
+    name: 阿里云盘签到
     runs-on: ubuntu-latest
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
